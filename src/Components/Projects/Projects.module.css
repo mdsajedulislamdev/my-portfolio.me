@@ -41,7 +41,7 @@
   bottom: 0%;
   right: 0%;
   overflow: hidden;
-  background-color: #3d9c4dc0;
+  background-color: #3d9c4de3;
   border-radius: 3px;
   transition: 0.3s ease-in-out;
 }
@@ -58,7 +58,7 @@
   bottom: 0%;
   left: 0%;
   overflow: hidden;
-  background-color: #3d9c4dc0;
+  background-color: #3d9c4de3;
   border-radius: 3px;
   transition: 0.3s ease-in-out;
 }
@@ -75,7 +75,7 @@
   bottom: 0%;
   left: 0%;
   overflow: hidden;
-  background-color: #3d9c4dc0;
+  background-color: #3d9c4de3;
   border-radius: 3px;
   transition: 0.3s ease-in-out;
 }
