@@ -18,6 +18,7 @@ ul > li {
   color: #ffffff;
   padding: 0.6vw 1vw;
   border-radius: 0.2vw;
+  cursor: pointer;
   font-family: "Ubuntu", sans-serif;
   transition: 0.3s ease-in-out;
 }

@@ -32,9 +32,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className={style.Links} to="/">
+          <a className={style.Links} href="https://drive.google.com/file/d/12LL5faGJUo-T_Y8hwBCK_sJLGna_U4cv/view?usp=sharing" rel="noreferrer" target="_blank">
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
     </div>

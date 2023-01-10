@@ -30,7 +30,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a className={style.ResumeBg} href="https://stackoverflow.com/users/18383895/md-sajedul-islam?tab=profile" rel="noreferrer" target="_blank">
+                  <a className={style.ResumeBg} href="https://drive.google.com/file/d/12LL5faGJUo-T_Y8hwBCK_sJLGna_U4cv/view?usp=sharing" rel="noreferrer" target="_blank">
                     Download Resume
                   </a>
                 </li>
