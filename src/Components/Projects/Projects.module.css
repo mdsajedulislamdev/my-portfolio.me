@@ -1,0 +1,203 @@
+/* ============================================== */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+.ProjectsMainDiv {
+  width: 100vw;
+  padding-top: 6vw;
+}
+.ProjectsMainDiv > h1 {
+  text-align: center;
+  font-size: 3vw;
+  color: #2d3630;
+  padding-bottom: 2vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.ImageMainDiv {
+  width: 85vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vw;
+  margin: auto;
+}
+.ImageDiv > img {
+  width: 25vw;
+  height: 20vw;
+  border: 1px solid #7a7a7a;
+  border-radius: 3px;
+}
+.ImageDiv {
+  width: 25vw;
+  height: 20vw;
+  overflow: hidden;
+  position: relative;
+}
+/* ==========Overlay================= */
+.OverlayOne {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  left: 100%;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  overflow: hidden;
+  background-color: #3d9c4dc0;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+.ImageDiv:hover .OverlayOne {
+  width: 100%;
+  left: 0%;
+}
+.OverlayTwo {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  right: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  overflow: hidden;
+  background-color: #3d9c4dc0;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+.ImageDiv:hover .OverlayTwo {
+  width: 100%;
+  right: 0%;
+}
+.OverlayThree {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  right: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  overflow: hidden;
+  background-color: #3d9c4dc0;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+.ImageDiv:hover .OverlayThree {
+  width: 100%;
+  right: 0%;
+}
+.LinkDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 9vw;
+  gap: 1vw;
+}
+.LinkDiv .Link {
+  width: 10vw;
+  padding: 0.3vw;
+  border-radius: 4px;
+  font-size: 1.4vw;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+/* ==========Responsiveness max600px======================== */
+@media screen and (max-width: 600px) {
+  .ProjectsMainDiv {
+    width: 100vw;
+    padding-top: 9vw;
+  }
+  .ProjectsMainDiv > h1 {
+    text-align: center;
+    font-size: 6vw;
+    padding-bottom: 3vw;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .ImageMainDiv {
+    width: 85vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3vw;
+    margin: auto;
+  }
+  .ImageDiv > img {
+    width: 85vw;
+    height: 53vw;
+    border: 1px solid #7a7a7a;
+    border-radius: 3px;
+  }
+  .ImageDiv {
+    width: 85vw;
+    height: 53vw;
+    overflow: hidden;
+    position: relative;
+  }
+  /* ==========Overlay================= */
+  .OverlayOne {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 100%;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    overflow: hidden;
+    background-color: #3d9c4dc0;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+  }
+  .ImageDiv:hover .OverlayOne {
+    width: 100%;
+    left: 0%;
+  }
+  .OverlayTwo {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    right: 100%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+    background-color: #3d9c4dc0;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+  }
+  .ImageDiv:hover .OverlayTwo {
+    width: 100%;
+    right: 0%;
+  }
+  .OverlayThree {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    right: 100%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+    background-color: #3d9c4dc0;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+  }
+  .ImageDiv:hover .OverlayThree {
+    width: 100%;
+    right: 0%;
+  }
+  .LinkDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vw;
+    gap: 3vw;
+  }
+  .LinkDiv .Link {
+    width: 30vw;
+    padding: 1vw;
+    border-radius: 4px;
+    font-size: 4vw;
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+  }
+}

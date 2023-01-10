@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+/* ============================== */
+.footerMainDiv {
+  overflow: hidden;
+}
+.FooterDiv {
+  position: relative;
+  width: 100vw;
+  height: 25vw;
+  padding: 2vw 5vw 2vw 5vw;
+  background: linear-gradient(to top, #2d3630, #2d3630d0);
+}
+.title {
+  text-align: left;
+  font-size: 2vw;
+  color: #fa6e5a;
+  letter-spacing: 0.1vw;
+  font-family: "Pacifico", cursive;
+}
+.time {
+  text-align: left;
+  font-size: 1.3vw;
+  color: #fa6e5a;
+  letter-spacing: 0.1vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.topTitleDiv {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2vw;
+  border-bottom: 1px solid white;
+}
+.iconDiv {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.icon {
+  font-size: 2.5vw;
+  color: #fa6e5a;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.icon:hover {
+  color: #ffffff;
+}
+.copyright {
+  position: absolute;
+  bottom: 2vw;
+  left: 36vw;
+  font-size: 1.5vw;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+/* ==================Title and contents========================= */
+.TitleAndContents {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 9vw;
+}
+.Title {
+  font-size: 1.6vw;
+  font-weight: bolder;
+  padding: 1vw 0vw;
+  color: #f1f1f1;
+  font-family: "Ubuntu", sans-serif;
+}
+.Links a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.3vw;
+  color: #d4d4d4;
+  padding: 0.2vw 0vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.Links a:hover {
+  text-decoration: underline;
+  color: #a5c41f;
+}
+
+/* ===============Responsive max600px==================== */
+@media screen and (max-width: 600px) {
+  .FooterDiv {
+    width: 100vw;
+    height: 50vw;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    padding: 5vw 5vw 2vw 5vw;
+    position: relative;
+  }
+  .title {
+    text-align: left;
+    font-size: 3vw;
+    color: #fa6e5a;
+    font-family: "Pacifico", cursive;
+  }
+  .time {
+    text-align: left;
+    font-size: 1.6vw;
+    color: #fa6e5a;
+    letter-spacing: 0.1vw;
+  }
+  .topTitleDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4vw;
+    border-bottom: 1px solid white;
+  }
+  .icon {
+    font-size: 4.8vw;
+    color: #fa6e5a;
+    cursor: pointer;
+  }
+  .icon:hover {
+    color: #d4d4d4;
+  }
+  .copyright {
+    position: absolute;
+    bottom: 5vw;
+    left: 27vw;
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+  }
+  /* ==================Title and contents========================= */
+  .TitleAndContents {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 1.5vw;
+  }
+  .Title {
+    font-size: 2.5vw;
+    font-weight: bolder;
+    padding: 1vw 0vw;
+    color: #f1f1f1;
+  }
+  .Links a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.8vw;
+    color: #d4d4d4;
+    padding: 0.2vw 0vw;
+  }
+  .Links a:hover {
+    text-decoration: underline;
+    color: #a5c41f;
+  }
+}

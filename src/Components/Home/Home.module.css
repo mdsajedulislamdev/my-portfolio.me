@@ -1,0 +1,301 @@
+/* ==============Google fonts style urls============================= */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+.HomeMainDiv {
+  width: 100vw;
+}
+.HomeChildDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  width: 80vw;
+  margin: auto;
+  padding-top: 3vw;
+}
+.ContentDiv {
+  display: block;
+  width: 100%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  padding-left: 2vw;
+  border-left: 0.5vw solid #fa6e5a;
+  border-radius: 0.5vw;
+  animation: moveLeft 2s 1 linear;
+}
+/* ===============ContentDiv Animation====================*/
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+/* =================LinkDiv================ */
+.LinkDiv {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1vw;
+  padding-top: 4vw;
+}
+.LinkDiv > li {
+  list-style: none;
+}
+.LinkDiv > li > a {
+  font-size: 1.25vw;
+  padding: 0.5vw;
+  color: #ffffff;
+  border-radius: 3px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+}
+.LinkedinBg {
+  background-color: #007bb5;
+}
+.GithubBg {
+  background-color: #00aff0;
+}
+.StackBg {
+  background-color: #dd4b39;
+}
+.ResumeBg {
+  background-color: #2d3630;
+}
+/* ==========Hover Effect========================== */
+.LinkDiv > li > a:hover {
+  opacity: 0.8;
+}
+/* ------------------------------------------------- */
+.Image {
+  width: 24vw;
+  display: block;
+  margin-left: auto;
+  animation: rotateImage 3s 1 linear;
+}
+/* ===============Image Animation====================*/
+@keyframes rotateImage {
+  0% {
+    transform: translateY(150%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.Hello {
+  font-size: 1.8vw;
+  font-weight: bold;
+  color: #2d3630;
+  font-family: "Lobster", cursive;
+  animation: moveHelloFromTop 2s 1 linear;
+}
+/* ===============Hello Animation====================*/
+@keyframes moveHelloFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.Name {
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #2d3630;
+  font-family: "Ubuntu", sans-serif;
+  animation: moveName 2s 1 linear;
+}
+/* ===============Name Animation====================*/
+@keyframes moveName {
+  0% {
+    transform: scale(0%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+.Designation {
+  font-size: 1.8vw;
+  font-weight: bold;
+  line-height: 3vw;
+  color: #2d3630;
+  font-family: "Ubuntu", sans-serif;
+  animation: moveDesignation 3s 1 linear;
+}
+/* ===============Designation Animation====================*/
+@keyframes moveDesignation {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.Expert {
+  font-size: 1.8vw;
+  font-weight: bold;
+  color: #2d3630;
+  font-family: "Ubuntu", sans-serif;
+  animation: moveExpert 3s 1 linear;
+}
+/* ===============Expert Animation====================*/
+@keyframes moveExpert {
+  0% {
+    transform: translateY(-500%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+/*======================= Responsiveness max600px=================== */
+@media screen and (max-width: 600px) {
+  .HomeMainDiv {
+    width: 100vw;
+  }
+  .HomeChildDiv {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 3vw;
+  }
+  .ContentDiv {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding-left: 2vw;
+    border-left: 1vw solid #fa6e5a;
+    border-radius: 1vw;
+    animation: moveLeft 2s 1 linear;
+  }
+  /* ===============ContentDiv Animation====================*/
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .Image {
+    width: 26vw;
+    display: block;
+    margin-left: auto;
+    margin-top: 5vw;
+    animation: rotateImage 3s 1 linear;
+  }
+  /* ===============Image Animation====================*/
+  @keyframes rotateImage {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .Hello {
+    font-size: 13px;
+    font-weight: bold;
+    color: #2d3630;
+    font-family: "Lobster", cursive;
+    animation: moveHelloFromTop 2s 1 linear;
+  }
+  /* ===============Hello Animation====================*/
+  @keyframes moveHelloFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  .Name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2d3630;
+    font-family: "Ubuntu", sans-serif;
+    animation: moveName 2s 1 linear;
+  }
+  /* ===============Name Animation====================*/
+  @keyframes moveName {
+    0% {
+      transform: scale(0%);
+    }
+    100% {
+      transform: scale(100%);
+    }
+  }
+  .Designation {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 3vw;
+    color: #2d3630;
+    font-family: "Ubuntu", sans-serif;
+    animation: moveDesignation 3s 1 linear;
+  }
+  /* ===============Designation Animation====================*/
+  @keyframes moveDesignation {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  .Expert {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #2d3630;
+    font-family: "Ubuntu", sans-serif;
+    animation: moveExpert 3s 1 linear;
+  }
+  /* ===============Expert Animation====================*/
+  @keyframes moveExpert {
+    0% {
+      transform: translateY(-300%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  /* =================LinkDiv================ */
+  .LinkDiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1vw;
+    padding-top: 3vw;
+  }
+  .LinkDiv > li {
+    list-style: none;
+  }
+  .LinkDiv > li > a {
+    font-size: 2.2vw;
+    padding: 0.5vw;
+    color: #ffffff;
+    border-radius: 3px;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+  }
+  .LinkedinBg {
+    background-color: #007bb5;
+  }
+  .GithubBg {
+    background-color: #00aff0;
+  }
+  .StackBg {
+    background-color: #dd4b39;
+  }
+  .ResumeBg {
+    background-color: #2d3630;
+  }
+}

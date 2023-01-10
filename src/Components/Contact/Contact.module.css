@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+.ContactMainDiv {
+  width: 100vw;
+  height: 15vw;
+  padding: 6vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2d3630;
+}
+.ContactText {
+  font-size: 4vw;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+.ContactEmail {
+  font-size: 1.8vw;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+.ContactNumberDiv :nth-child(-1n + 2) {
+  font-size: 1.8vw;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+/* ===========Responsiveness max 600px======================== */
+
+@media screen and (max-width: 600px) {
+  .ContactMainDiv {
+    width: 100vw;
+    height: 15vw;
+    padding: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d3630;
+    position: relative;
+  }
+  .ContactText {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-size: 5vw;
+    color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .ContactEmail {
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .ContactNumberDiv :nth-child(-1n + 2) {
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
+  }
+}

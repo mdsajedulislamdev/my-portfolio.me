@@ -1,0 +1,79 @@
+/* ============================================== */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+.AboutMainDiv {
+  width: 100vw;
+  padding-top: 6vw;
+}
+.AboutMainDiv > h1 {
+  text-align: center;
+  font-size: 3vw;
+  padding-bottom: 2vw;
+  color: #2d3630;
+  font-family: "Ubuntu", sans-serif;
+}
+.AboutContentDiv {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+.AboutImageDiv > .Image {
+  width: 24vw;
+}
+article > h2 {
+  font-size: 2vw;
+  color: #2d3630;
+  padding-bottom: 1vw;
+  font-family: "Ubuntu", sans-serif;
+}
+article > p {
+  font-size: 1.3vw;
+  text-align: left;
+  word-break: keep-all;
+  line-height: 2vw;
+  color: #2d3630;
+  font-family: "Ubuntu", sans-serif;
+}
+/* ===========Responsiveness max 600px========================= */
+
+@media screen and (max-width: 600px) {
+  .AboutMainDiv {
+    width: 100vw;
+    padding-top: 6vw;
+  }
+  .AboutMainDiv > h1 {
+    text-align: center;
+    font-size: 6vw;
+    padding-bottom: 3vw;
+    color: #2d3630;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .AboutContentDiv {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2vw;
+    margin: auto;
+  }
+  .AboutImageDiv > .Image {
+    width: 35vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  article > h2 {
+    font-size: 3vw;
+    color: #2d3630;
+    padding-bottom: 1.5vw;
+    font-family: "Ubuntu", sans-serif;
+  }
+  article > p {
+    font-size: 3vw;
+    text-align: left;
+    word-break: keep-all;
+    line-height: 4vw;
+    color: #2d3630;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
