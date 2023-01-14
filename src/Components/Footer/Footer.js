@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Footer.module.css";
-import { FaFacebookF, FaAmazon, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin, FaGithub, FaStackOverflow } from "react-icons/fa";
 
 import { useState } from "react";
 
@@ -24,16 +24,24 @@ const Footer = () => {
           </div>
           <div className={style.iconDiv}>
             <span>
-              <FaFacebookF className={style.icon} />
+              <a href="https://www.linkedin.com/in/mdsajedulislam-bd/" rel="noreferrer" target="_blank">
+                {<FaLinkedin className={style.icon} />}
+              </a>
             </span>
             <span>
-              <FaAmazon className={style.icon} />
+              <a href="https://github.com/mdsajedulislamdev?tab=repositories" rel="noreferrer" target="_blank">
+                {<FaGithub className={style.icon} />}
+              </a>
             </span>
             <span>
-              <FaGithub className={style.icon} />
+              <a href="https://stackoverflow.com/users/18383895/md-sajedul-islam?tab=profile" rel="noreferrer" target="_blank">
+                {<FaStackOverflow className={style.icon} />}
+              </a>
             </span>
             <span>
-              <FaInstagram className={style.icon} />
+              <a href="https://www.facebook.com/mdshajedul.islam/" rel="noreferrer" target="_blank">
+                {<FaFacebookF className={style.icon} />}
+              </a>
             </span>
           </div>
         </div>

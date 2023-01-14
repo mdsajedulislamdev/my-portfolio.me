@@ -29,8 +29,9 @@
 @media screen and (max-width: 600px) {
   .ContactMainDiv {
     width: 100vw;
-    height: 15vw;
+    height: 20vw;
     padding: 5vw;
+    margin-top: 5vw;
     display: flex;
     justify-content: space-around;
     align-items: center;

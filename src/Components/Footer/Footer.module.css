@@ -14,10 +14,15 @@
 }
 .title {
   text-align: left;
-  font-size: 2vw;
+  font-size: 2.5vw;
   color: #fa6e5a;
   letter-spacing: 0.1vw;
-  font-family: "Pacifico", cursive;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  transition: 0.2s ease-in-out;
+}
+.title:hover {
+  color: #a5c41f;
 }
 .time {
   text-align: left;
@@ -36,6 +41,9 @@
   display: flex;
   justify-content: center;
   gap: 2vw;
+}
+.iconDiv a {
+  text-decoration: none;
 }
 .icon {
   font-size: 2.5vw;

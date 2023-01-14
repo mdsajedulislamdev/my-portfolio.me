@@ -75,10 +75,10 @@
   width: 24vw;
   display: block;
   margin-left: auto;
-  animation: rotateImage 3s 1 linear;
+  animation: moveImage 2s 1 linear;
 }
 /* ===============Image Animation====================*/
-@keyframes rotateImage {
+@keyframes moveImage {
   0% {
     transform: translateY(150%);
   }
@@ -107,29 +107,29 @@
   font-weight: bold;
   color: #2d3630;
   font-family: "Ubuntu", sans-serif;
-  animation: moveName 2s 1 linear;
+  /* animation: moveName 2s 1 linear; */
 }
 /* ===============Name Animation====================*/
-@keyframes moveName {
+/* @keyframes moveName {
   0% {
     transform: scale(0%);
   }
   100% {
     transform: scale(100%);
   }
-}
+} */
 .Designation {
   font-size: 1.8vw;
   font-weight: bold;
   line-height: 3vw;
   color: #2d3630;
   font-family: "Ubuntu", sans-serif;
-  animation: moveDesignation 3s 1 linear;
+  animation: moveDesignation 2s 1 linear;
 }
 /* ===============Designation Animation====================*/
 @keyframes moveDesignation {
   0% {
-    transform: translateY(-200%);
+    transform: translateY(-50%);
   }
   100% {
     transform: translateY(0%);
@@ -140,12 +140,12 @@
   font-weight: bold;
   color: #2d3630;
   font-family: "Ubuntu", sans-serif;
-  animation: moveExpert 3s 1 linear;
+  animation: moveExpert 2s 1 linear;
 }
 /* ===============Expert Animation====================*/
 @keyframes moveExpert {
   0% {
-    transform: translateY(-500%);
+    transform: translateY(-100%);
   }
   100% {
     transform: translateY(0%);
