@@ -5,7 +5,7 @@ import image from "../../../src/images/image.png";
 const About = () => {
   return (
     <>
-      <div className={style.AboutMainDiv}>
+      <div className={style.AboutMainDiv} id="about">
         <h1>About Me</h1>
         <div className={style.AboutContentDiv}>
           <div className={style.AboutImageDiv}>

@@ -7,7 +7,7 @@ import student from "../../../src/images/student.png";
 const Projects = () => {
   return (
     <>
-      <div className={style.ProjectsMainDiv}>
+      <div className={style.ProjectsMainDiv} id="project">
         <h1>My Projects</h1>
         <div className={style.ImageMainDiv}>
           <div className={style.ImageDiv}>

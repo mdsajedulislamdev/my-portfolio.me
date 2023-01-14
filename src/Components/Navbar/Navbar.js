@@ -7,29 +7,29 @@ const Navbar = () => {
     <div className={style.NavDiv}>
       <ul>
         <li className={style.Portfolio}>
-          <Link className={style.PortfolioText} to="/">
+          <a className={style.PortfolioText} href="#home">
             Portfo<span>lio</span>
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.Links} to="/">
+          <a className={style.Links} href="#home">
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.Links} to="/#">
+          <a className={style.Links} href="#project">
             Project
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.Links} to="/">
+          <a className={style.Links} href="#about">
             About
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.Links} to="/">
+          <a className={style.Links} href="#contact">
             Contact
-          </Link>
+          </a>
         </li>
         <li>
           <a className={style.Links} href="https://drive.google.com/file/d/12LL5faGJUo-T_Y8hwBCK_sJLGna_U4cv/view?usp=sharing" rel="noreferrer" target="_blank">

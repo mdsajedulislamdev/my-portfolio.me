@@ -5,7 +5,7 @@ import image from "../../../src/images/image.png";
 const Home = () => {
   return (
     <>
-      <div className={style.HomeMainDiv}>
+      <div className={style.HomeMainDiv} id="home">
         <div className={style.HomeChildDiv}>
           <div className={style.ContentDiv}>
             <h5 className={style.Hello}>Hello, My name is</h5>

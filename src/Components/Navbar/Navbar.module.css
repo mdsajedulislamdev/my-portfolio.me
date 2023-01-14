@@ -8,6 +8,10 @@
   align-items: center;
   gap: 1.5vw;
   background-color: #2d3630;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 ul > li {
   list-style: none;

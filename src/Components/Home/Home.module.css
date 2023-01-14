@@ -4,6 +4,7 @@
 
 .HomeMainDiv {
   width: 100vw;
+  margin-top: 15vh;
 }
 .HomeChildDiv {
   display: grid;
@@ -155,6 +156,7 @@
 @media screen and (max-width: 600px) {
   .HomeMainDiv {
     width: 100vw;
+    margin-top: 15vh;
   }
   .HomeChildDiv {
     display: grid;
