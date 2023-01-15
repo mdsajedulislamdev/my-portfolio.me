@@ -17,7 +17,11 @@
 .ContactEmail {
   font-size: 1.8vw;
   color: #ffffff;
+  text-decoration: none;
   font-family: "Ubuntu", sans-serif;
+}
+.ContactEmail:hover {
+  text-decoration: underline;
 }
 .ContactNumberDiv :nth-child(-1n + 2) {
   font-size: 1.8vw;
